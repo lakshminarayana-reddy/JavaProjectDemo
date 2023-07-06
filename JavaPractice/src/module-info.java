@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author baru
+ *
+ */
+module JavaPractice {
+}
