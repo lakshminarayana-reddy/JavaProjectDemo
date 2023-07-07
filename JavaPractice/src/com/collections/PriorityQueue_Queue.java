@@ -17,6 +17,7 @@ public class PriorityQueue_Queue {
 		q.add("Selenium");
 		q.add("Java");
 		q.add("TestNG");
+		q.add("GitHub");
 		System.out.println("Before polling"+q);
 		while(q.peek()!=null)
 			System.out.println(q.poll());
