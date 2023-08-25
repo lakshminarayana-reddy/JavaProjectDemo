@@ -1,7 +1,7 @@
 package com.practice;
 
 public class Demo {
-	//test
+	//test updated
 	public static void main(String[] args) {
 		String demo ="Sai";
 		String demo1="Sai";
