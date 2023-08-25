@@ -34,8 +34,8 @@ public class ArrayList_List {
 		while(listIterate.hasPrevious()) {
 			System.out.println(listIterate.previous());
 		}
-//		Collections.sort(ar);;
-//		System.out.println(ar);
+		//Collections.sort(ar);
+		System.out.println(ar);
 		Collections.reverse(ar);
 		System.out.println(ar);
 	}
