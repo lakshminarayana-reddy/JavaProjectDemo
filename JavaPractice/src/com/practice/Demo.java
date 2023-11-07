@@ -3,6 +3,7 @@ package com.practice;
 public class Demo {
 	//test updated
 	public static void main(String[] args) {
+		System.out.println("Hi Welcome");
 		String demo ="Sai";
 		String demo1="Sai";
 		if(demo.equals(demo1)) {
