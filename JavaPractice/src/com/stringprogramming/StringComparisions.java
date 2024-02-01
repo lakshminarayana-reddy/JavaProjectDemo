@@ -22,10 +22,6 @@ public class StringComparisions {
 		return smallest + "\n" + largest;
 	}
 	public static void main(String[] args) {
-//		Scanner scan = new Scanner(System.in);
-//		String s = scan.next();
-//		int k = scan.nextInt();
-		//scan.close();
 		String s1="abcdef";
 		String s2 ="abcd";
 		char ch ='A';
