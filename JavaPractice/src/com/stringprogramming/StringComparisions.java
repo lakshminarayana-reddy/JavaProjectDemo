@@ -36,4 +36,7 @@ public class StringComparisions {
 			//getSmallestAndLargest(s,k);
 		//System.out.println(getSmallestAndLargest(s, k));
 	}
+	public static void testGitBranches() {
+		System.out.println("Testing git branches");
+	}
 }
