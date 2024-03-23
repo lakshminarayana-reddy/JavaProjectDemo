@@ -12,23 +12,23 @@ public class HashTableDemo {
 		//table.put(null, null);
 		System.out.println(table);
 		data();
-
 	}
 	public static Object[][] data(){
 		Object data[][] = new Object[1][1];
 		Hashtable<Object, Object> table= null;
-		for(int i=1; i<2; i++) {
+		for(int i=0; i<=1; i++) {
 			table = new Hashtable<Object, Object>();
-			for(int j=0; j<5; j++) {
+			for(int j=0; j<=1; j++) {
 				table.put(i, j);
-				data[0][0]=table;
-				System.out.println(data[0][0]);
+				data[i][0]=table;
+				//System.out.println(data[i][0]);
+				System.out.println(table);
 			}
 		}
+		//System.out.println(table);
 		return data;
 	}
 	public static void test(Hashtable<String,String> data) {
 		System.out.println(data);
 	}
-
 }
