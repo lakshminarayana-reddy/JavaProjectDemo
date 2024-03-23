@@ -12,6 +12,7 @@ public class TreeMap_Map {
 		//map.put(97f, 98);
 		//map.put(null, null);
 		System.out.println(map);
+		System.out.println("Added name");
 	}
 
 }
