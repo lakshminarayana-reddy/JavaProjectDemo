@@ -20,9 +20,6 @@ public class ArrayList_List {
 		ar1.add(17);
 		ar.addAll(1,ar1);
 		System.out.println(ar);
-//		for(Object obj : ar) {
-//			System.out.println(obj);
-//		}
 		Iterator<Object> iterate = ar.iterator();
 		while(iterate.hasNext()) {
 			System.out.println(iterate.next());
@@ -38,6 +35,21 @@ public class ArrayList_List {
 		System.out.println(ar);
 		Collections.reverse(ar);
 		System.out.println(ar);
+		arrayListTwo();
 	}
-
+	public static void arrayListTwo() {
+		ArrayList<ArrayList<Object>> arlst = new ArrayList<ArrayList<Object>>();
+		ArrayList arlst1 = new ArrayList();
+		arlst1.add("Username");
+		arlst1.add("Password");
+		ArrayList arlst2 = new ArrayList();
+		arlst2.add("Sai");
+		arlst2.add("reddy");
+		arlst.addAll(arlst1);
+		arlst.addAll(arlst2);
+		Iterator iterate = arlst.iterator();
+		while(iterate.hasNext()) {
+			System.out.println(iterate.next());
+		}
+	}
 }
