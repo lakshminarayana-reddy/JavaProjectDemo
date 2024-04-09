@@ -22,6 +22,9 @@ public class Demo {
 		String s1 = "17.98";
 		float f = Float.parseFloat(s1);
 		System.out.println(f);
+		
+		Integer[] ar = {1,2,3,4};
+		System.out.println(ar[0 ]);
 	}
 
 }

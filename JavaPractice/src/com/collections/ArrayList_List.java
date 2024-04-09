@@ -8,6 +8,12 @@ import java.util.ListIterator;
 public class ArrayList_List {
 
 	public static void main(String[] args) {
+		ArrayList<Integer> s = new ArrayList<Integer>();
+		s.add(null);
+		String[] s1 = new String[1];
+		s1[0]="";
+		System.out.println(s1[0]);
+		System.out.println(s);
 		ArrayList<Object> ar = new ArrayList<>();
 		ar.add("Sai");
 		ar.add(17);	
