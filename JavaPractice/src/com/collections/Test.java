@@ -8,5 +8,8 @@ public class Test {
 	public static void testGit() {
 		System.out.println("Test git hub actions");
 	}
+	public static void testGit1() {
+		System.out.println("LN-QA Branch");
+	}
 
 }
