@@ -8,5 +8,8 @@ public class Test {
 	public static void testGit() {
 		System.out.println("LN-Test branch");
 	}
+	public static void testGit1() {
+		System.out.println("LN-QA Branch");
+	}
 
 }
