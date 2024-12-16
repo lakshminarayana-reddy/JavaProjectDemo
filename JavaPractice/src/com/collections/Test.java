@@ -6,7 +6,7 @@ public class Test {
 		System.out.println("Hello World !");
 	}
 	public static void testGit() {
-		System.out.println("Test git hub actions");
+		System.out.println("LN-Test branch");
 	}
 	public static void testGit1() {
 		System.out.println("LN-QA Branch");
